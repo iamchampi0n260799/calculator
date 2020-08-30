@@ -1,10 +1,18 @@
-
+body{
+    background-color: #f6eef4;
+}
 form{
-    padding: 20px 0px;
+    padding: 10px 0px;
     
 }
+.button.a{
+    background-color: #f4e0f4;
+}
 .container__main{
+    background-color: #d18282;
+    border-radius: 5px;
     
+    padding: 20px 20px;
     position: absolute;
 
     top: 50%;
@@ -12,11 +20,14 @@ form{
     transform: translate(-50%, -50%);
 }
 .textview{
+    background-color: #242424e6;
+    border: none;
+
     width:210px;
-    height:30px;
+    height:40px;
     border-radius:5px;
 
-    color: red;
+    color: white;
     font-weight: 550;
     letter-spacing: 1px;
 }
@@ -24,4 +35,6 @@ form{
     width: 50px;
     height: 50px;
     border-radius: 5px;
+    border-color: #eaeae3;
+    background-color:#f1ffd6;
 }
